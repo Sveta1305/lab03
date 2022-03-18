@@ -1,11 +1,9 @@
 #include <iostream>
 
-using namespace std;
-
 int main(){
 char[200] name;
-cout << "Enter name user: ";
-cin >> name;
-cout << "Hello world from " << name << " !" << endl;
+std::cout << "Enter name user: " << std::endl;
+std::cin >> name;
+std::cout << "Hello world from " << name << " !" << std::endl;
 return 0;
 }
